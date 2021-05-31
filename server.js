@@ -10,17 +10,10 @@ app.use((req, res, next) => {
     res.header({"Access-Control-Allow-Origin": "*"});
     next();
   }) 
-// To solve the cors issue
-//const cors=require('cors');
-	
-//app.listen(process.env.PORT,
-//	() => console.log("Server Start at the Port"));
-	
-//app.use(express.static('public'));
-//app.use(cors());
+
 
 // when get request is made, alldata() is called
-app.get('/elementss', alldata);
+app.get('/test', alldata);
 
 function alldata(request, response) {
 	// Returns all information about the elements
