@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "vijji",
+  "version": "1.0.0",
+  "description": "nodejs project",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vijaya9418/backend-API.git"
+  },
+  "keywords": [
+    "nodee"
+  ],
+  "author": "vijaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vijaya9418/backend-API/issues"
+  },
+  "homepage": "https://github.com/Vijaya9418/backend-API#readme"
+}
