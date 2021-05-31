@@ -2,7 +2,7 @@ var fs = require('fs');
 
 // json file with the data
 // data = fs.readFileSync('chemistry.json');
-data=JSON.stringify("I am VIjay");
+data=JSON.stringify("I am VIjaya");
 const express = require("express");
 const app = express();
 
@@ -24,7 +24,7 @@ app.get('/elementss', alldata);
 
 function alldata(request, response) {
 	// Returns all information about the elements
-	response.send("VIjaykanth reddy");
+	response.send("VIjaya shree kanwal");
 }
 
 app.get('/getdata/:data/',getdatav);
